@@ -1,0 +1,38 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    @Styles.Render("~/Css/Common/FangWeb")
+    @RenderSection("styles", required: false)
+}
+
+@section scripts{
+    @Scripts.Render("~/Js/Common/FangWeb")
+    @RenderSection("scripts", required: false)
+}
+
+
+<div class="ViewHeader">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class=""></div>
+        </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class=""></div>
+            <div class=""></div>
+        </div>
+    </div>
+</div>
+<div class="ViewContent">
+    @RenderBody()
+</div>
+<div class="ViewFooter" ng-controller="ViewFooter">
+    <ul>
+        <li ng-repeat="Menu in Menus">
+            <span>{{Menu.Text}}</span>
+        </li>
+    </ul>
+</div>

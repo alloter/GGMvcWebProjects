@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "主页";
+    Layout = "~/Views/Shared/ViewFangWeb.cshtml";
+}
+
+@section styles{
+    @Styles.Render("~/Css/FangWeb/Index")
+}
+
+@section scripts{
+    @Scripts.Render("~/Js/FangWeb/Index")
+}
+
+<div class="ViewIndex" ng-controller="IndexController">
+    <div class="jumbotron ">
+        <div class="text-center">
+            <img class="img-circle" ng-src="{{UserInfo.UserHeader}}" err-src="" />
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center" ng-bind="Craftmanship.Title"></h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" ng-repeat="c in Craftmanship.List">
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-md-4 col-md-push-8">
+                            <div class="text-center">
+                                <span ng-bind="c.Title"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-md-pull-4">
+                            <h5 ng-bind="c.SubTitle"></h5>
+                            <p class="text-justify" ng-bind="c.Desc"></p>
+                            <p><a ng-href="{{c.Url}}" ng-bind="c.Text"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="text-center" ng-bind="Compatibility.Title"></h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-sm-2" ng-repeat="c in Compatibility.List">
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-12 col-md-4">
+                            <img class="img-circle" ng-src="{{c.Logo}}" />
+                        </div>
+                        <div class="col-xs-6 col-sm-12 col-md-8">
+                            <h5 ng-bind="c.Title"></h5>
+                            <div class="text-nowrap">
+                                <a href="" target="_blank" ng-href="{{c.Website}}">官网</a>
+                                <a href="" target="_blank" ng-href="{{c.Download}}">下载</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="text-center" ng-bind="Technologysite.Title"></h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" ng-repeat="c in Technologysite.List">
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div class="embed-responsive-item">
+                                <img class="img-thumbnail" ng-src="{{c.Logo}}" />
+                            </div>
+                            <div class="embed-responsive-item"></div>
+                            <div class="embed-responsive-item">
+                                <a href="" target="_blank" ng-href="{{c.Website}}" ng-bind="c.Title"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

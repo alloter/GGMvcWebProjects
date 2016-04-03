@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "H5App";
+    Layout = "~/Views/Shared/ViewExample.cshtml";
+}
+
+@section styles{
+    @Styles.Render("~/Css/Example/H5App")
+}
+
+@section scripts{
+    @Scripts.Render("~/Js/Example/H5App")
+}
+
+<div class="ViewH5App" ng-controller="H5AppController">
+    <div class="container">
+        <h2>H5App</h2>
+        <img src="~/Image/Example/img-iphone-iphone5.png" />
+    </div>
+</div>
+

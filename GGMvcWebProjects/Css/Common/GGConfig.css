@@ -1,0 +1,44 @@
+﻿/*
+    Less Css Config
+
+    项目中的CSS的样式引用说明，不必引入页面
+*/
+
+/*#region Font */
+
+@font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53";
+@font-size: 12px;
+@font-family: "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53";
+@font-family-en: Georgia, 'Times New Roman', Times, serif;
+
+/*#endregion */
+
+/*#region Color */
+
+@color-theme-color: #333333;
+@color-theme-background: #ffffff;
+@color-status-color: #ffffff;
+@color-status-hover: #7ed1e8;
+@color-status-background: #008eb7;
+@color-status-spacing: #1aabcf;
+@color-nav-color: #ffffff;
+@color-nav-hover: #ffffff;
+@color-nav-background: #00a2ca;
+@color-nav-background-hover: #0196bd;
+@color-footer-background: #f9f9f9;
+@color-footer-border: #e5e5e5;
+
+@color-6: #666666;
+@color-9: #999999;
+@color-e: #e5e5e5;
+
+@color-g: #96c800;
+@color-o: #ff8c00;
+@color-b: #00c8ff;
+
+@color-o-1: #ff8c00;
+@color-o-2: #ff8c00;
+@color-o-3: #ff8c00;
+
+/*#endregion */
+

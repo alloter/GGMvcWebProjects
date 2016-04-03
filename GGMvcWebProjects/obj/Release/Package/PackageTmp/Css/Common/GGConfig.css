@@ -1,0 +1,22 @@
+﻿/*
+    Less Css Config
+*/
+
+/*#region Font */
+
+@font:                          12px/1.5 "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53";
+@font-size:                     12px;
+@font-family:                   "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53";
+
+/*#endregion */
+
+/*#region Color */
+
+@color-theme-color:             #333333;
+@color-theme-background:        #00a2ca;
+@color-status-color:            #ffffff;
+@color-status-background:       #00aae7;
+
+
+/*#endregion */
+
