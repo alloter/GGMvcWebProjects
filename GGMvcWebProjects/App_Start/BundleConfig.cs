@@ -16,6 +16,7 @@ namespace GGMvcWebProjects
             #region Common
 
             bundles.Add(new StyleBundle("~/Css/Common/Common").Include(
+                "~/Utils/animate/css/animate.css",
                 "~/Utils/bootstrap/css/bootstrap.css",
                 "~/Utils/bootstrap/css/bootstrap-theme.css",
                 "~/Css/Common/GGBootstrap.css",
@@ -23,7 +24,7 @@ namespace GGMvcWebProjects
 
             bundles.Add(new ScriptBundle("~/Js/Common/Common").Include(
                 "~/Utils/jquery/jquery-1.11.1.js",
-                "~/Utils/jquery.qrcode/jquery.qrcode-0.12.0.js",
+                "~/Utils/qrcode/jquery.qrcode-0.12.0.js",
                 "~/Utils/bootstrap/js/bootstrap.js",
                 "~/Utils/angular/angular.js",
                 "~/Js/Common/GGConfig.js",
@@ -56,15 +57,24 @@ namespace GGMvcWebProjects
             bundles.Add(new ScriptBundle("~/Js/Example/H5App").Include(
                 "~/Js/Example/H5App.js"));
 
+            bundles.Add(new StyleBundle("~/Css/Example/iphone5").Include(
+                "~/Css/Example/iphone5.css"));
+            bundles.Add(new ScriptBundle("~/Js/Example/iphone5").Include(
+                "~/Js/Example/iphone5.js"));
+
             #endregion
 
             #region FangWap
 
-            bundles.Add(new StyleBundle("~/Css/Common/FangWap").Include(
+            bundles.Add(new StyleBundle("~/Css/FangWap/FangWap").Include(
                 "~/Css/FangWap/CssFangWap.css"));
-
-            bundles.Add(new ScriptBundle("~/Js/Common/FangWeb").Include(
+            bundles.Add(new ScriptBundle("~/Js/FangWap/FangWeb").Include(
                 "~/Js/FangWap/JsFangWap.js"));
+
+            bundles.Add(new StyleBundle("~/Css/FangWap/Index").Include(
+                "~/Css/FangWap/Index.css"));
+            bundles.Add(new ScriptBundle("~/Js/FangWap/Index").Include(
+                "~/Js/FangWap/Index.js"));
 
             #endregion
 
@@ -93,11 +103,14 @@ namespace GGMvcWebProjects
             bundles.Add(new StyleBundle("~/Css/FangWeb/Career").Include(
                "~/Css/FangWeb/Career.css"));
             bundles.Add(new ScriptBundle("~/Js/FangWeb/Career").Include(
+                "~/Utils/echarts/js/echarts.js",
                 "~/Js/FangWeb/Career.js"));
 
             bundles.Add(new StyleBundle("~/Css/FangWeb/Works").Include(
+                "~/Utils/fullpage/css/jquery.fullpage.css",
                "~/Css/FangWeb/Works.css"));
             bundles.Add(new ScriptBundle("~/Js/FangWeb/Works").Include(
+                "~/Utils/fullpage/js/jquery.fullpage.js",
                 "~/Js/FangWeb/Works.js"));
 
             bundles.Add(new StyleBundle("~/Css/FangWeb/Motto").Include(

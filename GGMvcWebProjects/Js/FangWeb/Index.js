@@ -41,7 +41,7 @@ app.controller("IndexController", function ($scope) {
                 Title: "IE浏览器",
                 SubTitle: "",
                 Desc: "",
-                Logo: "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1009539029,1001709328&fm=58",
+                Logo: "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=876064898,825171328&fm=58",
                 Website: "http://windows.microsoft.com/zh-cn/internet-explorer/download-ie",
                 Download: "https://www.baidu.com/link?url=vk2jceojbDQHzesXrV2GUkWGAhzEtEjJu6SAI1VRUecoxfNN56XT55TJfIljIb02XuLupNPPMPOCjGdiAJtQt7l6R1lafAsvF4Axsg4b7xa&wd=&eqid=ee133e6a0001cc2e0000000656f4eacb"
             },
@@ -57,7 +57,7 @@ app.controller("IndexController", function ($scope) {
                 Title: "Safari浏览器",
                 SubTitle: "",
                 Desc: "",
-                Logo: "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=985064900,942883649&fm=58",
+                Logo: "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1022597256,1010414407&fm=58",
                 Website: "https://www.apple.com/safari/",
                 Download: "https://www.baidu.com/link?url=uhMuZTuEIrdbUKzkrTT6efXOqJvOUxVGVNcC2anKF2HTZimIAbMe2tfKoGukfngUQv0v-nG5TpTIY1euVf-YNq&wd=&eqid=9e972e56000a105a0000000656f4fae0"
             },

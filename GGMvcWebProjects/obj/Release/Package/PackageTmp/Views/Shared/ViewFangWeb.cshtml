@@ -2,27 +2,64 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@section metas{
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+}
+
 @section styles{
-    @Styles.Render("~/Css/Common/FangWeb")
+
+    @Styles.Render("~/Css/FangWeb/Common")
     @RenderSection("styles", required: false)
 }
 
 @section scripts{
-    @Scripts.Render("~/Js/Common/FangWeb")
+    @Scripts.Render("~/Js/FangWeb/Common")
     @RenderSection("scripts", required: false)
 }
 
 
-<div class="ViewHeader">
+<div class="ViewHeader" ng-controller="ViewHeader">
+    <div class="hidden-xs"></div>
+    <div class="visible"></div>
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class=""></div>
+        <div class="hidden-xs">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" ng-href="{{Statusbars.Header.Url}}" ng-bind="Statusbars.Header.Text"></a>
+                </div>
+                <div class="navbar-collapse collapse navbar-right" role="navigation" aria-expanded="false">
+                    <ul class="nav navbar-nav">
+                        <li ng-repeat="bar in Statusbars.List">
+                            <a href="" target="_blank" ng-href="{{bar.Url}}" ng-bind="bar.Text"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class=""></div>
-            <div class=""></div>
+        <div class="visible">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header col-sm-2 col-md-3">
+                        <a class="navbar-brand" href="/">
+                            <span class="f-c"></span>
+                            <span>Fang</span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse col-sm-10 col-md-9" role="navigation" aria-expanded="false">
+                        <ul class="nav navbar-nav">
+                            <li ng-repeat="bar in Navbars.List">
+                                <a ng-class="{'active':bar.Active}" ng-href="{{bar.Url}}" ng-bind="bar.Text"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -30,9 +67,26 @@
     @RenderBody()
 </div>
 <div class="ViewFooter" ng-controller="ViewFooter">
-    <ul>
-        <li ng-repeat="Menu in Menus">
-            <span>{{Menu.Text}}</span>
-        </li>
-    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-2" ng-repeat="bar in Navbars.List">
+                <h3 ng-bind="bar.Header.Text"></h3>
+                <ul>
+                    <li ng-repeat="c in bar.List">
+                        <a href="" target="_blank" ng-href="{{c.Url}}" ng-bind="c.Text"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <p class="text-center">
+            <span ng-non-bindable="CopyRight.Symbol">&copy;</span>
+            <span ng-bind="CopyRight.CopyYear"></span>
+            <span class="text-capitalize" ng-bind="CopyRight.DomainName"></span>
+            <span ng-bind="CopyRight.AllRightRserved"></span>
+            <a href="" target="_blank" ng-href="CopyRight.ICPUrl" ng-bind="CopyRight.ICPNo"></a>
+        </p>
+    </div>
 </div>

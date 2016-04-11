@@ -30,32 +30,32 @@ app.controller("ViewHeader", function ($scope) {
         List: [
             {
                 Text: "手机版空间",
-                Url: "/",
+                Url: "/FangWap/Index",
                 List: []
             },
             {
                 Text: "AngularJs",
-                Url: "/",
+                Url: "/Examples/angular_1.5.0/docs/index.html",
                 List: []
             },
             {
                 Text: "Bootstrap",
-                Url: "/",
+                Url: "http://v3.bootcss.com/",
                 List: []
             },
             {
                 Text: "MUI",
-                Url: "/",
+                Url: "/Examples/mui_master/examples/hello-mui/index.html",
                 List: []
             },
             {
                 Text: "QRCode",
-                Url: "/",
+                Url: "/Examples/jquery_qrcode/examples/index.html",
                 List: []
             },
             {
                 Text: "AgileLite",
-                Url: "/",
+                Url: "/Examples/agile_lite/examples/for-browser/agile_lite/index.html",
                 List: []
             }
         ]
@@ -111,6 +111,7 @@ app.controller("ViewHeader", function ($scope) {
         var isActive = false;
         $.each($scope.Navbars.List, function (i, item) {
             if (url.toUpperCase().indexOf(item.Url.toUpperCase()) > 0) {
+                document.title = item.Text; //将title替换为当前标题内容
                 isActive = true;
                 item.Active = true;
                 return false;
@@ -145,6 +146,10 @@ app.controller("ViewFooter", function ($scope) {
                     {
                         Text: "前端网",
                         Url: "http://www.w3cfuns.com/"
+                    },
+                    {
+                        Text: "慢时间",
+                        Url: "http://www.manshijian.com/"
                     },
                     {
                         Text: "人人都是产品经理",

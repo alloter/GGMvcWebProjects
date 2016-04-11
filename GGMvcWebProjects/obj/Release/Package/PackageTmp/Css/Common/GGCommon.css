@@ -1,5 +1,27 @@
 ﻿body {
+    color: #333;
     font-size: 12px;
     font-family: "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53";
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
+
+
+/*#region Html tag */
+
+a {
+    vertical-align: baseline;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+    a:hover,
+    a:visited,
+    a:link {
+        text-decoration: none;
+    }
+
+
+/*#endregion */

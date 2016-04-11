@@ -1,8 +1,67 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Abount";
     Layout = "~/Views/Shared/ViewFangWeb.cshtml";
 }
 
-<h2>Abount</h2>
+@section styles{
+    @Styles.Render("~/Css/FangWeb/Abount")
+}
+
+@section scripts{
+    @Scripts.Render("~/Js/FangWeb/Abount")
+}
+
+<div class="ViewAbount" ng-controller="AbountController">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-9 col-md-10">
+                <div class="caption">
+                    <hr />
+                    <h3><span ng-bind="UserInfo.UserName"></span></h3>
+                </div>
+                <div class="col-xs-12">
+                    <p class="col-xs-12 text-justify" ng-repeat="c in UserInfo.UserBrief" ng-bind="c.p"></p>
+                </div>
+            </div>
+            <div class="hidden-xs col-sm-3 col-md-2">
+                <img class="img-thumbnail" ng-src="{{UserInfo.UserHeader}}" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="caption">
+                    <hr />
+                    <h5><span ng-bind="UserBasic.Header.Text"></span></h5>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="col-sm-6" ng-repeat="c in UserBasic.List">
+                    <div class="row" ng-repeat="b in c.List">
+                        <div class="col-xs-5 col-sm-3" ng-bind="b.Key"></div>
+                        <div class="col-xs-7 col-sm-9" ng-bind="b.Value"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="caption">
+                    <hr />
+                    <h5><span ng-bind="UserHobby.Header.Text"></span></h5>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="col-sm-6 col-md-3" ng-repeat="c in UserHobby.List">
+                    <div class="col-xs-12">
+                        <h5 class="text-center" ng-bind="c.Title"></h5>
+                        <div class="text-justify" ng-bind="c.Text"></div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <img class="embed-responsive-item" ng-src="{{c.Url}}" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

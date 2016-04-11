@@ -218,7 +218,9 @@
     <Content Include="Css\Example\CssExample.css" />
     <Content Include="Css\Example\H5App.css" />
     <Content Include="Css\Example\Index.css" />
+    <Content Include="Css\Example\iphone5.css" />
     <Content Include="Css\FangWap\CssFangWap.css" />
+    <Content Include="Css\FangWap\Index.css" />
     <Content Include="Css\FangWeb\Career.css" />
     <Content Include="Css\FangWeb\CssFangWeb.css" />
     <Content Include="Css\FangWeb\Experience.css" />
@@ -3134,6 +3136,168 @@
     <Content Include="Examples\angular_1.5.0\i18n\angular-locale_zu-za.js" />
     <Content Include="Examples\angular_1.5.0\i18n\angular-locale_zu.js" />
     <Content Include="Examples\angular_1.5.0\version.txt" />
+    <Content Include="Examples\animate.css_master\animate.css" />
+    <Content Include="Examples\animate.css_master\animate.min.css" />
+    <Content Include="Examples\animate.css_master\gulpfile.js" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\bounce.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\flash.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\headShake.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\jello.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\pulse.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\rubberBand.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\shake.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\swing.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\tada.css" />
+    <Content Include="Examples\animate.css_master\source\attention_seekers\wobble.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_entrances\bounceIn.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_entrances\bounceInDown.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_entrances\bounceInLeft.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_entrances\bounceInRight.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_entrances\bounceInUp.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_exits\bounceOut.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_exits\bounceOutDown.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_exits\bounceOutLeft.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_exits\bounceOutRight.css" />
+    <Content Include="Examples\animate.css_master\source\bouncing_exits\bounceOutUp.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeIn.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInDown.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInDownBig.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInLeft.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInLeftBig.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInRight.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInRightBig.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInUp.css" />
+    <Content Include="Examples\animate.css_master\source\fading_entrances\fadeInUpBig.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOut.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutDown.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutDownBig.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutLeft.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutLeftBig.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutRight.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutRightBig.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutUp.css" />
+    <Content Include="Examples\animate.css_master\source\fading_exits\fadeOutUpBig.css" />
+    <Content Include="Examples\animate.css_master\source\flippers\flip.css" />
+    <Content Include="Examples\animate.css_master\source\flippers\flipInX.css" />
+    <Content Include="Examples\animate.css_master\source\flippers\flipInY.css" />
+    <Content Include="Examples\animate.css_master\source\flippers\flipOutX.css" />
+    <Content Include="Examples\animate.css_master\source\flippers\flipOutY.css" />
+    <Content Include="Examples\animate.css_master\source\lightspeed\lightSpeedIn.css" />
+    <Content Include="Examples\animate.css_master\source\lightspeed\lightSpeedOut.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_entrances\rotateIn.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_entrances\rotateInDownLeft.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_entrances\rotateInDownRight.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_entrances\rotateInUpLeft.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_entrances\rotateInUpRight.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_exits\rotateOut.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_exits\rotateOutDownLeft.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_exits\rotateOutDownRight.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_exits\rotateOutUpLeft.css" />
+    <Content Include="Examples\animate.css_master\source\rotating_exits\rotateOutUpRight.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_entrances\slideInDown.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_entrances\slideInLeft.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_entrances\slideInRight.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_entrances\slideInUp.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_exits\slideOutDown.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_exits\slideOutLeft.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_exits\slideOutRight.css" />
+    <Content Include="Examples\animate.css_master\source\sliding_exits\slideOutUp.css" />
+    <Content Include="Examples\animate.css_master\source\specials\hinge.css" />
+    <Content Include="Examples\animate.css_master\source\specials\rollIn.css" />
+    <Content Include="Examples\animate.css_master\source\specials\rollOut.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_entrances\zoomIn.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_entrances\zoomInDown.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_entrances\zoomInLeft.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_entrances\zoomInRight.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_entrances\zoomInUp.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_exits\zoomOut.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_exits\zoomOutDown.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_exits\zoomOutLeft.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_exits\zoomOutRight.css" />
+    <Content Include="Examples\animate.css_master\source\zooming_exits\zoomOutUp.css" />
+    <Content Include="Examples\animate.css_master\source\_base.css" />
+    <Content Include="Examples\echarts_master\dist\echarts.common.js" />
+    <Content Include="Examples\echarts_master\dist\echarts.common.min.js" />
+    <Content Include="Examples\echarts_master\dist\echarts.js" />
+    <Content Include="Examples\echarts_master\dist\echarts.min.js" />
+    <Content Include="Examples\echarts_master\dist\echarts.simple.js" />
+    <Content Include="Examples\echarts_master\dist\echarts.simple.min.js" />
+    <Content Include="Examples\echarts_master\dist\extension\bmap.js" />
+    <Content Include="Examples\echarts_master\dist\extension\bmap.min.js" />
+    <Content Include="Examples\echarts_master\dist\extension\dataTool.js" />
+    <Content Include="Examples\echarts_master\dist\extension\dataTool.min.js" />
+    <Content Include="Examples\fullpage.js_master\dist\jquery.fullpage.css" />
+    <Content Include="Examples\fullpage.js_master\dist\jquery.fullpage.js" />
+    <Content Include="Examples\fullpage.js_master\dist\jquery.fullpage.min.css" />
+    <Content Include="Examples\fullpage.js_master\dist\jquery.fullpage.min.js" />
+    <Content Include="Examples\fullpage.js_master\examples\apple.html" />
+    <Content Include="Examples\fullpage.js_master\examples\autoMediaPlayPause.html" />
+    <Content Include="Examples\fullpage.js_master\examples\backgrounds.html" />
+    <Content Include="Examples\fullpage.js_master\examples\backgroundsFixed.html" />
+    <Content Include="Examples\fullpage.js_master\examples\backgroundVideo.html" />
+    <Content Include="Examples\fullpage.js_master\examples\callbacks.html" />
+    <Content Include="Examples\fullpage.js_master\examples\continuous.html" />
+    <Content Include="Examples\fullpage.js_master\examples\css3.html" />
+    <Content Include="Examples\fullpage.js_master\examples\demoPage.html" />
+    <Content Include="Examples\fullpage.js_master\examples\easing.html" />
+    <Content Include="Examples\fullpage.js_master\examples\examples.css" />
+    <Content Include="Examples\fullpage.js_master\examples\examples.js" />
+    <Content Include="Examples\fullpage.js_master\examples\fixedHeaders.html" />
+    <Content Include="Examples\fullpage.js_master\examples\gradientBackgrounds.html" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\1.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\2.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\3.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\bg1.jpg" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\bg2.jpg" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\bg3.jpg" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\bg4.jpg" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\bg5.jpg" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\compatible.gif" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\copyright.txt" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\example.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\example2.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\flowers.mp4" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\fullPage.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\horse.mp3" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\intro.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone-blue.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone-green.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone-red.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone-two.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone-yellow.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone1.jpg" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone2.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone3.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\iphone4.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\slider.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\tablets.png" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\used-by-fullpage.png" />
+    <Content Include="Examples\fullpage.js_master\examples\looping.html" />
+    <Content Include="Examples\fullpage.js_master\examples\methods.html" />
+    <Content Include="Examples\fullpage.js_master\examples\navigationH.html" />
+    <Content Include="Examples\fullpage.js_master\examples\navigationV.html" />
+    <Content Include="Examples\fullpage.js_master\examples\noAnchor.html" />
+    <Content Include="Examples\fullpage.js_master\examples\normalScroll.html" />
+    <Content Include="Examples\fullpage.js_master\examples\oneSection.html" />
+    <Content Include="Examples\fullpage.js_master\examples\responsiveHeight.html" />
+    <Content Include="Examples\fullpage.js_master\examples\responsiveWidth.html" />
+    <Content Include="Examples\fullpage.js_master\examples\scrollBar.html" />
+    <Content Include="Examples\fullpage.js_master\examples\scrolling.html" />
+    <Content Include="Examples\fullpage.js_master\examples\scrollingSpeed.html" />
+    <Content Include="Examples\fullpage.js_master\examples\simple.html" />
+    <Content Include="Examples\fullpage.js_master\gulpfile.js" />
+    <Content Include="Examples\fullpage.js_master\jquery.fullPage.css" />
+    <Content Include="Examples\fullpage.js_master\jquery.fullPage.js" />
+    <Content Include="Examples\fullpage.js_master\jquery.fullPage.min.js" />
+    <Content Include="Examples\fullpage.js_master\pure javascript %28Alpha%29\demo.html" />
+    <Content Include="Examples\fullpage.js_master\pure javascript %28Alpha%29\javascript.fullPage.css" />
+    <Content Include="Examples\fullpage.js_master\pure javascript %28Alpha%29\javascript.fullPage.js" />
+    <Content Include="Examples\fullpage.js_master\pure javascript %28Alpha%29\javascript.fullPage.min.js" />
+    <Content Include="Examples\fullpage.js_master\tests\functions.html" />
+    <Content Include="Examples\fullpage.js_master\tests\functions.js" />
+    <Content Include="Examples\fullpage.js_master\vendors\jquery.easings.min.js" />
+    <Content Include="Examples\fullpage.js_master\vendors\jquery.slimscroll.js" />
+    <Content Include="Examples\fullpage.js_master\vendors\jquery.slimscroll.min.js" />
     <Content Include="Examples\jquery_qrcode\dist\jquery.qrcode-0.12.0.js" />
     <Content Include="Examples\jquery_qrcode\dist\jquery.qrcode-0.12.0.min.js" />
     <Content Include="Examples\jquery_qrcode\examples\back.png" />
@@ -3142,6 +3306,18 @@
     <Content Include="Examples\jquery_qrcode\examples\jquery-1.11.3.min.js" />
     <Content Include="Examples\jquery_qrcode\examples\scripts.js" />
     <Content Include="Examples\jquery_qrcode\examples\styles.css" />
+    <Content Include="Examples\scrollify\dist\index.html" />
+    <Content Include="Examples\scrollify\dist\index2.html" />
+    <Content Include="Examples\scrollify\dist\index3.html" />
+    <Content Include="Examples\scrollify\dist\index4.html" />
+    <Content Include="Examples\scrollify\dist\index5.html" />
+    <Content Include="Examples\scrollify\dist\index6.html" />
+    <Content Include="Examples\scrollify\dist\index7.html" />
+    <Content Include="Examples\scrollify\dist\index8.html" />
+    <Content Include="Examples\scrollify\dist\js\jquery-1.8.3.min.js" />
+    <Content Include="Examples\scrollify\dist\js\jquery.easing.1.3.js" />
+    <Content Include="Examples\scrollify\dist\js\jquery.scrollify.js" />
+    <Content Include="Examples\scrollify\dist\js\jquery.scrollify.min.js" />
     <Content Include="Image\default\img-header-cartoon.jpg" />
     <Content Include="Image\default\img-header-picture.jpg" />
     <Content Include="Image\default\img-arrow-light.png" />
@@ -3156,18 +3332,32 @@
     <Content Include="Js\Example\CssExample.js" />
     <Content Include="Js\Example\H5App.js" />
     <Content Include="Js\Example\Index.js" />
+    <Content Include="Js\FangWap\Index.js" />
     <Content Include="Js\FangWap\JsFangWap.js" />
     <Content Include="Js\FangWeb\Career.js" />
     <Content Include="Js\FangWeb\Experience.js" />
     <Content Include="Js\FangWeb\Index.js" />
+    <Content Include="Js\Example\iphone5.js" />
     <Content Include="Js\FangWeb\JsFangWeb.js" />
     <Content Include="Js\FangWeb\Abount.js" />
     <Content Include="Js\FangWeb\Motto.js" />
     <Content Include="Js\FangWeb\Works.js" />
     <Content Include="Utils\angular\angular.js" />
     <Content Include="Utils\angular\angular.min.js" />
-    <Content Include="Utils\jquery.qrcode\jquery.qrcode-0.12.0.js" />
-    <Content Include="Utils\jquery.qrcode\jquery.qrcode-0.12.0.min.js" />
+    <Content Include="Utils\animate\css\animate.css" />
+    <Content Include="Utils\animate\css\animate.min.css" />
+    <Content Include="Utils\echarts\js\echarts.common.js" />
+    <Content Include="Utils\echarts\js\echarts.common.min.js" />
+    <Content Include="Utils\echarts\js\echarts.js" />
+    <Content Include="Utils\echarts\js\echarts.min.js" />
+    <Content Include="Utils\echarts\js\echarts.simple.js" />
+    <Content Include="Utils\echarts\js\echarts.simple.min.js" />
+    <Content Include="Utils\fullpage\css\jquery.fullpage.css" />
+    <Content Include="Utils\fullpage\js\jquery.fullpage.js" />
+    <Content Include="Utils\fullpage\css\jquery.fullpage.min.css" />
+    <Content Include="Utils\fullpage\js\jquery.fullpage.min.js" />
+    <Content Include="Utils\qrcode\jquery.qrcode-0.12.0.js" />
+    <Content Include="Utils\qrcode\jquery.qrcode-0.12.0.min.js" />
     <Content Include="Utils\jquery\jquery-1.11.1.js" />
     <Content Include="Utils\jquery\jquery-1.11.1.min.js" />
     <Content Include="Utils\jquery\jquery.plugins-2.3.js" />
@@ -3772,6 +3962,24 @@
     <Content Include="Examples\angular_1.5.0\version.json" />
     <Content Include="Examples\jquery_qrcode\README.md" />
     <Content Include="Css\Common\GGConfig.css" />
+    <Content Include="Examples\fullpage.js_master\.gitattributes" />
+    <Content Include="Examples\fullpage.js_master\.gitignore" />
+    <Content Include="Examples\fullpage.js_master\bower.json" />
+    <Content Include="Examples\fullpage.js_master\dist\jquery.fullpage.min.css.map" />
+    <Content Include="Examples\fullpage.js_master\dist\jquery.fullpage.min.js.map" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\flowers.webm" />
+    <Content Include="Examples\fullpage.js_master\examples\imgs\horse.ogg" />
+    <Content Include="Examples\fullpage.js_master\jquery.fullPage.scss" />
+    <Content Include="Examples\fullpage.js_master\package.json" />
+    <Content Include="Examples\fullpage.js_master\pure javascript %28Alpha%29\README.md" />
+    <Content Include="Examples\fullpage.js_master\README.md" />
+    <Content Include="Examples\animate.css_master\.editorconfig" />
+    <Content Include="Examples\animate.css_master\.gitignore" />
+    <Content Include="Examples\animate.css_master\animate-config.json" />
+    <Content Include="Examples\animate.css_master\bower.json" />
+    <Content Include="Examples\animate.css_master\LICENSE" />
+    <Content Include="Examples\animate.css_master\package.json" />
+    <Content Include="Examples\animate.css_master\README.md" />
     <None Include="Js\Origin\jquery-1.10.2.intellisense.js" />
     <Content Include="Js\Origin\jquery-1.10.2.js" />
     <Content Include="Js\Origin\jquery-1.10.2.min.js" />
@@ -3811,12 +4019,15 @@
     <Content Include="Views\FangWeb\Experience.cshtml" />
     <Content Include="Views\FangWeb\Works.cshtml" />
     <Content Include="Views\FangWeb\Motto.cshtml" />
+    <Content Include="Utils\fullpage\css\jquery.fullpage.min.css.map" />
+    <Content Include="Utils\fullpage\js\jquery.fullpage.min.js.map" />
+    <Content Include="Views\Example\iphone5.cshtml" />
+    <Content Include="Views\FangWap\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Examples\angular_1.5.0\i18n\ngLocale\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\FangWap\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Fonts\glyphicons\glyphicons-halflings-regular.woff" />
@@ -3848,18 +4059,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51593</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51590/</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost:51590/</IISAppRootUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

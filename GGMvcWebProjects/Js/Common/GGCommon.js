@@ -54,21 +54,20 @@ mfun.DigitToUpperCase = function (n) {
  * 用JavaScript获取Url的指定参数，若是找不到返回空串
  */
 mfun.UrlRequestParams = function (n) {
-    var url = n;
-    if (typeof (url) == "undefined") { url = window.location.href; }
-    var url_well = url.split("#")[0];
-    var para_string = url_well.substr(url_well.indexOf("?") + 1, url_well.length).split("&");
-    var para_obj = {};
-    for (var i = 0; j = para_string[i]; i++) {
-        para_obj[j.substr(0, j.indexOf("=")).toLowerCase()] = j.substr(j.indexOf("=") + 1, j.length);
+    var rect = "";
+    var url = url = window.location.href;
+    var url_path = url.split("#")[0];
+    var param_array = url_path.substr(url_path.indexOf("?") + 1, url_path.length).split("&");
+    for (var i = 0; i < param_array.length; i++) {
+        var param_string = param_array[i];
+        var param_key = param_string.substr(0, param_string.indexOf("="));
+        var param_value = param_string.substr(param_string.indexOf("=") + 1, param_string.length);
+        if (param_key.toLowerCase() == n.toLowerCase()) {
+            rect = param_value;
+        }
     }
 
-    var return_value = para_obj[paras.toLowerCase()];
-    if (typeof (return_value) == "undefined") {
-        return_value = "";
-    }
-
-    return return_value;
+    return rect;
 };
 
 // #endregion
@@ -85,7 +84,6 @@ mfun.UrlRequestParams = function (n) {
  */
 Date.prototype.toDateFormat = function (str) { //author: meizz
     var rect = this.toString();
-    window.console.log(str);
     if (str) {
         var o = {
             "M+": this.getMonth() + 1, //月份   
@@ -104,6 +102,23 @@ Date.prototype.toDateFormat = function (str) { //author: meizz
 
     return rect;
 }
+
+/*
+ * 对jquery的扩展，引入第三方库animate.css  
+ * https://github.com/daneden/animate.css
+ * 
+ * 例子：   
+ * $('#yourElement').animateCss('bounce');
+ * 
+ */
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        $(this).addClass('animated ' + animationName).one(animationEnd, function () {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
+});
 
 
 // #endregion

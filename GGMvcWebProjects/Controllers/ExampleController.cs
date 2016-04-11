@@ -13,8 +13,13 @@ namespace GGMvcWebProjects.Controllers
         {
             return this.View();
         }
-        
+
         public ActionResult H5App()
+        {
+            return this.View();
+        }
+
+        public ActionResult iphone5()
         {
             return this.View();
         }

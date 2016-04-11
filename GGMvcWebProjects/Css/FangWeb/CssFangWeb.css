@@ -7,27 +7,21 @@
     overflow: hidden;
 }
 
-    .ViewHeader > .hidden-xs {
-        height: 28px;
-        background-color: #008eb7;
-    }
-
-    .ViewHeader > .visible {
-        height: 60px;
-        background-color: #00a2ca;
-    }
-
     .ViewHeader .navbar {
         border-color: transparent !important;
         background-color: transparent !important;
         background-image: none !important;
     }
 
+        .ViewHeader > .hidden-xs,
         .ViewHeader .navbar > .hidden-xs {
+            height: 28px;
             background-color: #008eb7;
         }
 
+        .ViewHeader > .visible,
         .ViewHeader .navbar > .visible {
+            height: 60px;
             background-color: #00a2ca;
         }
 

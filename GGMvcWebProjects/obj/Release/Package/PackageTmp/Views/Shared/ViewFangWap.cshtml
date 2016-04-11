@@ -2,6 +2,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@section metas{
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+}
+
 @section styles{
     @Styles.Render("~/Css/Common/FangWap")
     @RenderSection("styles", required: false)

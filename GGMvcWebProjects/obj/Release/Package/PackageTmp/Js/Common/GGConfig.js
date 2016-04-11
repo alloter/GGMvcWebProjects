@@ -2,6 +2,6 @@
 
 // #region angular
 
-var ngApp = angular.module("ngApp", []);
+var app = angular.module("app", []);
 
 // #endregion
