@@ -11,7 +11,7 @@ namespace GGMvcWebProjects
         {
             // 使用要用于开发和学习的 Modernizr 的开发版本。然后，当你做好
             // 生产准备时，请使用 http://modernizr.com 上的生成工具来仅选择所需的测试。
-            BundleTable.EnableOptimizations = false; // debug下看到压缩文件
+            //BundleTable.EnableOptimizations = true; // debug下看到压缩文件
 
             #region Common
 
@@ -21,12 +21,11 @@ namespace GGMvcWebProjects
                 "~/Utils/bootstrap/css/bootstrap-theme.css",
                 "~/Css/Common/GGBootstrap.css",
                 "~/Css/Common/GGCommon.css"));
-
             bundles.Add(new ScriptBundle("~/Js/Common/Common").Include(
                 "~/Utils/jquery/jquery-1.11.1.js",
                 "~/Utils/qrcode/jquery.qrcode-0.12.0.js",
+                 "~/Utils/angular/angular.js",
                 "~/Utils/bootstrap/js/bootstrap.js",
-                "~/Utils/angular/angular.js",
                 "~/Js/Common/GGConfig.js",
                 "~/Js/Common/GGModule.js",
                 "~/Js/Common/GGCommon.js"));
@@ -66,9 +65,9 @@ namespace GGMvcWebProjects
 
             #region FangWap
 
-            bundles.Add(new StyleBundle("~/Css/FangWap/FangWap").Include(
+            bundles.Add(new StyleBundle("~/Css/FangWap/Common").Include(
                 "~/Css/FangWap/CssFangWap.css"));
-            bundles.Add(new ScriptBundle("~/Js/FangWap/FangWeb").Include(
+            bundles.Add(new ScriptBundle("~/Js/FangWap/Common").Include(
                 "~/Js/FangWap/JsFangWap.js"));
 
             bundles.Add(new StyleBundle("~/Css/FangWap/Index").Include(

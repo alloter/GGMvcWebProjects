@@ -20,7 +20,7 @@ function funConsoleLogFangWeb() {
 
 // #region controller
 
-app.controller("ViewHeader", function ($scope) {
+app.controller("HeaderController", function ($scope) {
     $scope.Statusbars = {
         Header: {
             Text: "欢迎来到" + fdata.FullName + "的个人空间",
@@ -122,7 +122,7 @@ app.controller("ViewHeader", function ($scope) {
     funNavbarsList(); // 判断当前页面的导航位置
 });
 
-app.controller("ViewFooter", function ($scope) {
+app.controller("FooterController", function ($scope) {
     $scope.Navbars = {
         Header: {
             Text: "我可以走得很慢，但是我绝不后退。",
@@ -473,7 +473,7 @@ app.controller("ViewFooter", function ($scope) {
         StartYear: 2016,
         EndYear: (new Date()).getFullYear(),
         CopyYear: (new Date()).getFullYear(),
-        ICPNo: "ICP证：XXXXXX",
+        ICPNo: "ICP证：豫ICP备16009433号",
         ICPUrl: "http://www.miibeian.gov.cn"
     };
 

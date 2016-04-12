@@ -3329,7 +3329,7 @@
     <Content Include="Js\Common\GGConfig.js" />
     <Content Include="Js\Common\GGFangData.js" />
     <Content Include="Js\Common\GGModule.js" />
-    <Content Include="Js\Example\CssExample.js" />
+    <Content Include="Js\Example\JsExample.js" />
     <Content Include="Js\Example\H5App.js" />
     <Content Include="Js\Example\Index.js" />
     <Content Include="Js\FangWap\Index.js" />

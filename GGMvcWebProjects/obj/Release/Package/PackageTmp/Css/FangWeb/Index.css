@@ -140,7 +140,7 @@
                     .ViewIndex .container > .row:nth-child(4) > *:nth-child(n) > .row > *:first-child img {
                         width: 45px;
                         height: 45px;
-                        margin: auto auto auto -15px;
+                        margin: auto auto;
                     }
 
                     .ViewIndex .container > .row:nth-child(4) > *:nth-child(n) > .row > *:last-child h5 {
@@ -256,6 +256,10 @@
 
     .ViewIndex .container > .row:nth-child(2) > *:nth-child(n) > .row > *:last-child > *:first-child {
         text-align: left;
+    }
+
+    .ViewIndex .container > .row:nth-child(4) > *:nth-child(n) > .row > *:first-child img {
+        margin-left: -15px;
     }
 }
 

@@ -7,7 +7,6 @@
 }
 
 @section styles{
-
     @Styles.Render("~/Css/FangWeb/Common")
     @RenderSection("styles", required: false)
 }
@@ -18,7 +17,7 @@
 }
 
 
-<div class="ViewHeader" ng-controller="ViewHeader">
+<div class="ViewHeader" ng-controller="HeaderController">
     <div class="hidden-xs"></div>
     <div class="visible"></div>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -66,7 +65,7 @@
 <div class="ViewContent">
     @RenderBody()
 </div>
-<div class="ViewFooter" ng-controller="ViewFooter">
+<div class="ViewFooter" ng-controller="FooterController">
     <div class="container">
         <div class="row">
             <div class="col-xs-4 col-sm-2" ng-repeat="bar in Navbars.List">
@@ -86,7 +85,7 @@
             <span ng-bind="CopyRight.CopyYear"></span>
             <span class="text-capitalize" ng-bind="CopyRight.DomainName"></span>
             <span ng-bind="CopyRight.AllRightRserved"></span>
-            <a href="" target="_blank" ng-href="CopyRight.ICPUrl" ng-bind="CopyRight.ICPNo"></a>
+            <a href="" target="_blank" ng-href="{{CopyRight.ICPUrl}}" ng-bind="CopyRight.ICPNo"></a>
         </p>
     </div>
 </div>

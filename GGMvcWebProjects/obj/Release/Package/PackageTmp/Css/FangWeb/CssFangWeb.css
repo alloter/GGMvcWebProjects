@@ -972,3 +972,31 @@
 
 
 /*#endregion */
+
+
+/*#region media */
+
+@media (max-width: 768px) {
+
+    .ViewHeader .navbar > .visible .navbar-brand {
+        padding-left: 0px;
+    }
+
+    .ViewHeader .navbar > .visible .navbar-toggle {
+        margin: 15px auto auto auto;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+
+@media (min-width: 992px) {
+}
+
+
+@media (min-width: 1200px) {
+}
+
+
+/*#endregion */
